@@ -1,0 +1,12 @@
+<div class="card shadow-sm">
+  <img class="bd-placegolder-img card-img-top" width="100%" src='{{"assets/images/" + product.img + ".jpg"}}'>
+  <div class="card-body">
+    <p class="card-text">{{ product.name }}</p>
+    <p class="card-text">{{ product.category }}</p>
+    <p class="card-text">{{ product.quantity }}</p>
+    <p class="card-text">{{ product.price | currency:'BRL'}}</p>
+
+    <button class="btn btn-primary btn-sm">Comprar</button>
+    <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+  </div>
+</div>
